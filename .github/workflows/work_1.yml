@@ -1,0 +1,9 @@
+name: Work 1 Marco_727272
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: echo "Hola Pitaya!"
