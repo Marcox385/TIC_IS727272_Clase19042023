@@ -1,0 +1,11 @@
+name: Work 2 Marco_727272
+on:
+  push:
+    branches:
+      - test_1
+job:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Multiprint
+        run: for i in {1..3}; do echo "Impresión $i"; done
